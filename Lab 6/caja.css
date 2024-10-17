@@ -1,0 +1,113 @@
+/*cuerpo*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: black;
+}
+h1, h3 {
+    color: #004e66;
+}
+
+p {
+    color: #292424;
+    line-height: 1.6;
+}
+/*encabezado*/
+header {
+    background-color: #87ceeb;
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+}
+/*encabezado de texto principal*/
+header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+/*encabezado de texto informativo*/
+header p.lead {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+/*barra de navegacion*/
+.navbar{
+    background-color: #004e66;
+    padding: 15px;
+}
+.navbar ul {
+    list-style: none;
+    text-align: center;
+}
+.navbar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+.post {
+    background-color: rgb(186, 225, 226);
+    margin: 40px auto;
+    width: 80%;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+.post-header img {
+    border-radius: 10px;
+    width: 50%;
+    height: auto;
+}
+.subtitulo {
+    color: #777;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid #b3b3b3;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #004e66;
+    color: white;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+
+footer{
+    background-color: #87ceeb;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+}
+footer h4{
+    color: #004e66;
+    font-size: 2.5em;
+
+}
+form fieldset {
+    background-color: #004e66;
+}
